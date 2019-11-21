@@ -6,6 +6,7 @@ import styles  from './styles';
 const Login = () => {
     const initialValues = { 
         email: '',
+        password: '',
     };
 
     const submitHandler = (values, actions) => {
